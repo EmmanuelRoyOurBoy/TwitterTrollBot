@@ -1,5 +1,5 @@
 import random
-Words to troll=input("What phrase do you want to trollify?)
+Wordstotroll=input("What phrase do you want to trollify?)
 def Troll(text)
   new = []
   for c in text:
@@ -9,4 +9,4 @@ def Troll(text)
     else:
       new.append(c.lower())
   return
-print(Troll(Words to troll)
+print(Troll(Wordstotroll)
